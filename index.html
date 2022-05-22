@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+	<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Poppins:wght@600;700&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+
+
+body{
+	background-image: url("back.jpg");
+	background-size: cover;
+}
+
+.box{
+	margin-top: 90px;
+	margin-left: 500px;
+	width: 310px;
+	height: 500px;
+	border-radius: 30px;
+	backdrop-filter: blur(10px);
+	padding: 10px;
+}
+h1{
+	font-family: 'Oleo Script Swash Caps', cursive;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	letter-spacing: 10px;
+	text-align: center;
+	font-size: 3em;
+}
+.head{
+	font-family: 'Roboto Mono', monospace;
+	margin-top: -10px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-size: 20px;
+}
+
+input{
+	border: none;
+	border-radius: 14px;
+	height: 30px;
+	background-color: rgba(255, 255, 255, 0.30);
+	width: 80%;
+	color: #454750;
+	font-size: 20px;
+	font-family: poppins;
+	font-weight: 900;
+}
+#sub{
+	width: 40%;
+	margin-left: 70px;
+	margin-top: 12px;
+	color: #454750;
+	font-size: 20px;
+	font-family: poppins;
+	font-weight: 900;
+
+}
+
+label{
+	color: white;
+	font-family: Arial Rounded MT;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 15px;
+	transition: 0.4s;
+}
+
+.forget{
+	width: 100%;
+	height: 40px;
+	margin-top: -12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.forget a{
+	text-decoration: none;
+	color: #fff;
+}
+.forget p {
+	font-family:Roboto Mono, monospace;
+	font-size: 20px;
+	transition: 0.8s;
+}
+.forget p:hover{
+	transform: scale(1.8);
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.40);
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.lw p {
+	font-family:Roboto Mono, monospace;
+	font-size: 20px;
+	transition: 0.8s;
+	color: #fff;
+}
+
+.lw{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.lw i{
+	color: #f44336;
+	cursor: pointer;
+	padding-left: 18px;
+	padding-right: 18px;
+	width: 15px;
+}
+
+.lw img{
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+
+</style>
+
+</head>
+<body>
+<div class="box">
+	<h1>AditShok</h1>
+	<p class="head">Bring The Creativeness</p>
+	<br><br>
+	<form>
+		<label>Username</label><input id="un" type="Text" required>
+		<br><br>
+		<label>Password</label><input id="pw" type="password" required>
+		<input id="sub" type="submit" required>
+	</form>
+	<br>
+	<br>
+	<div class="forget"><a href=""><P>Forgot Password ?<P></a></div>
+	<div class="lw"><p>Login With </p><br><br><br>
+		<br>
+		<img src="google.png" width="100px">
+		<img src="facebook.png" width="100px">
+	</div>
+</body>
+</html>
